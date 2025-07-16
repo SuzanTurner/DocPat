@@ -28,13 +28,18 @@ Backend: Flask (for login control), SQLite for persistence
 ```
 git clone https://github.com/SuzanTurner/DocPat.git
 ```
+2. Naviagete to the folder:
+```
+cd dist
+cd docpat
+```
 
-2. Install the requirements:
+3. Install the requirements:
 ```
 pip install -r requirements.txt
 ```
 
-3. Run the main.py file
+4. Run the main.py file
 ```
 python main.py
 ```
