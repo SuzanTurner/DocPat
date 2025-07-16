@@ -30,6 +30,7 @@ git clone https://github.com/SuzanTurner/DocPat.git
 ```
 2. Naviagete to the folder:
 ```
+cd docpat
 cd dist
 cd docpat
 ```
