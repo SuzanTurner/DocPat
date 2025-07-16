@@ -5,13 +5,13 @@ import sys
 import os
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-os.chdir(BASE_DIR)
+os.environ["PYTHONPATH"] = BASE_DIR 
 
 def run_flask():
-    subprocess.run([sys.executable, os.path.join("backend", "main.py")])
+    subprocess.run([sys.executable, os.path.join(BASE_DIR, "backend", "main.py")])
 
 def run_gui():
-    subprocess.run([sys.executable, os.path.join("gui", "main.py")])
+    subprocess.run([sys.executable, os.path.join(BASE_DIR, "gui", "main.py")])
 
 if __name__ == "__main__":
     flask_thread = threading.Thread(target=run_flask)
