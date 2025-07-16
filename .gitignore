@@ -1,3 +1,7 @@
 venv/
 __pycache__/
 *.pyc
+backend
+gui
+main.py
+pyarmor.bug.log
