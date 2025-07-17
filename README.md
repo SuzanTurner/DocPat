@@ -29,8 +29,6 @@ git clone https://github.com/SuzanTurner/DocPat.git
 2. Naviagete to the folder:
 ```
 cd docpat
-cd dist
-cd docpat
 ```
 
 3. Install the requirements:
@@ -38,11 +36,17 @@ cd docpat
 pip install -r requirements.txt
 ```
 
-4. Run the main.py file
+4. Navigatet to folder that store `main.py` file:
+```
+cd armor
+```
+This should contain two folders named `gui` and `backend` and one `main.py` file. This is the file we're gonna run.
+
+5. Run the main.py file
 ```
 python main.py
 ```
 
-Make sure this is running from the root folder. 
+Make sure this is running from the armor folder. 
 
 
