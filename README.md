@@ -36,7 +36,7 @@ cd docpat
 pip install -r requirements.txt
 ```
 
-4. Navigatet to folder that store `main.py` file:
+4. Navigate to folder that store `main.py` file:
 ```
 cd armor
 ```
